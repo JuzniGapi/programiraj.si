@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "description": "Napiši funkcijo, ki vrne število samoglasnikov v podanem nizu. Samoglasniki so: a, e, i, o, u (velike in male črke).",
+  "function_signature": "def stevilo_samoglasnikov(besedilo: str) -> int:",
+  "input_format": "Posredovan bo niz znakov `besedilo`.",
+  "output_format": "Vrni celo število, ki predstavlja število samoglasnikov v nizu.",
+  "constraints": ["1 <= len(besedilo) <= 10^5"],
+  "examples": [
+    { "input": "besedilo = 'Pozdravljen svet'", "output": "5" },
+    { "input": "besedilo = 'AEIOUaeiou'", "output": "10" },
+    { "input": "besedilo = 'xyz'", "output": "0" }
+  ]
+}

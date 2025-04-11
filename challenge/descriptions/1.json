@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "description": "Podan je seznam števil od 0 do n, kjer eno število manjka. Poišči manjkajoče število brez uporabe zanke ali sortiranja.",
+  "function_signature": "def manjkajoca_stevilka(seznam: list[int]) -> int:",
+  "input_format": "Podan bo seznam dolžine n, ki vsebuje vsa števila od 0 do n, razen enega manjkajočega.",
+  "output_format": "Vrni manjkajočo številko.",
+  "constraints": ["1 <= len(seznam) <= 10^5"],
+  "examples": [
+    { "input": "seznam = [3, 0, 1]", "output": "2" },
+    { "input": "seznam = [0, 1]", "output": "2" }
+  ]
+}

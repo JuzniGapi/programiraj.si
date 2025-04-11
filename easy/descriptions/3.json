@@ -1,0 +1,13 @@
+{
+  "id": 3,
+  "description": "Napiši funkcijo, ki prejme niz in vrne niz v obratnem vrstnem redu (brez uporabe funkcije reversed).",
+  "function_signature": "def obrni_niz(niz: str) -> str:",
+  "input_format": "Posredovan bo niz znakov `niz`.",
+  "output_format": "Vrni niz, obrnjen v obratnem vrstnem redu.",
+  "constraints": ["1 <= len(niz) <= 10^5"],
+  "examples": [
+    { "input": "niz = 'hello'", "output": "'olleh'" },
+    { "input": "niz = 'Python'", "output": "'nohtyP'" },
+    { "input": "niz = 'a'", "output": "'a'" }
+  ]
+}

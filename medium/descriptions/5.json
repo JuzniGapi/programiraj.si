@@ -1,0 +1,13 @@
+{
+  "id": 5,
+  "description": "Napiši funkcijo, ki preveri, ali sta dva niza anagrama. Ignoriraj velike/male črke.",
+  "function_signature": "def je_anagram(niz1: str, niz2: str) -> bool:",
+  "input_format": "Podana bosta dva niza `niz1` in `niz2`.",
+  "output_format": "Vrni `True`, če sta niza anagrama, sicer `False`.",
+  "constraints": ["1 <= len(niz1), len(niz2) <= 10^5"],
+  "examples": [
+    { "input": "niz1 = 'listen', niz2 = 'silent'", "output": "True" },
+    { "input": "niz1 = 'Hello', niz2 = 'Olelh'", "output": "True" },
+    { "input": "niz1 = 'test', niz2 = 'tast'", "output": "False" }
+  ]
+}

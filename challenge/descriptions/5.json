@@ -1,0 +1,12 @@
+{
+  "id": 5,
+  "description": "Napiši funkcijo, ki vrne najkrajši podniz niza `besedilo`, ki vsebuje vse znake iz `cilj` (vključno s ponovitvami).",
+  "function_signature": "def najkrajsi_podniz(besedilo: str, cilj: str) -> str:",
+  "input_format": "Podana bosta dva niza: `besedilo` in `cilj`.",
+  "output_format": "Vrni najkrajši podniz, ki vsebuje vse znake cilja.",
+  "constraints": ["1 <= len(besedilo), len(cilj) <= 10^4"],
+  "examples": [
+    { "input": "besedilo = 'ADOBECODEBANC', cilj = 'ABC'", "output": "'BANC'" },
+    { "input": "besedilo = 'a', cilj = 'a'", "output": "'a'" }
+  ]
+}

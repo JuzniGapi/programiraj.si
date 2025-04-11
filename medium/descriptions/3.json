@@ -1,0 +1,12 @@
+{
+  "id": 3,
+  "description": "Napiši funkcijo, ki preveri, ali podan niz vsebuje samo unikatne znake.",
+  "function_signature": "def ima_unikatne_znake(niz: str) -> bool:",
+  "input_format": "Podan bo niz znakov `niz`.",
+  "output_format": "Vrni `True`, če so vsi znaki v nizu unikatni, sicer `False`.",
+  "constraints": ["1 <= len(niz) <= 10^5"],
+  "examples": [
+    { "input": "niz = 'abcdefg'", "output": "True" },
+    { "input": "niz = 'hello'", "output": "False" }
+  ]
+}

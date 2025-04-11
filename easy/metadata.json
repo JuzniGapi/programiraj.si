@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Štetje samoglasnikov",
+    "difficulty": "easy",
+    "tags": ["nizi", "zanka", "osnove"]
+  },
+  {
+    "id": 2,
+    "title": "Vsota seznama",
+    "difficulty": "easy",
+    "tags": ["seznam", "zanka", "matematika"]
+  },
+  {
+    "id": 3,
+    "title": "Obrni niz",
+    "difficulty": "easy",
+    "tags": ["nizi", "manipulacija"]
+  },
+  {
+    "id": 4,
+    "title": "Največje število",
+    "difficulty": "easy",
+    "tags": ["seznam", "primerjava", "osnove"]
+  },
+  {
+    "id": 5,
+    "title": "Ali je palindrom?",
+    "difficulty": "easy",
+    "tags": ["nizi", "primerjava", "logika"]
+  }
+]

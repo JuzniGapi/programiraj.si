@@ -1,0 +1,13 @@
+{
+  "id": 5,
+  "description": "Napiši funkcijo, ki preveri, ali je podan niz palindrom. Palindrom je niz, ki se bere enako naprej in nazaj. Ignoriraj velike/male črke.",
+  "function_signature": "def je_palindrom(niz: str) -> bool:",
+  "input_format": "Posredovan bo niz znakov `niz`.",
+  "output_format": "Vrni `True`, če je niz palindrom, sicer `False`.",
+  "constraints": ["1 <= len(niz) <= 10^5"],
+  "examples": [
+    { "input": "niz = 'level'", "output": "True" },
+    { "input": "niz = 'Python'", "output": "False" },
+    { "input": "niz = 'RaceCar'", "output": "True" }
+  ]
+}

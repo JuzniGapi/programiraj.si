@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "description": "Podan je rotiran urejen seznam in iskana vrednost. Napiši funkcijo, ki vrne indeks iskane vrednosti ali -1, če vrednosti ni.",
+  "function_signature": "def isci_v_rotiranem(seznam: list[int], cilj: int) -> int:",
+  "input_format": "Podan bo rotiran naraščajoče urejen seznam in celo število `cilj`.",
+  "output_format": "Vrni indeks vrednosti `cilj` ali -1, če ni najdena.",
+  "constraints": ["1 <= len(seznam) <= 10^4"],
+  "examples": [
+    { "input": "seznam = [4,5,6,7,0,1,2], cilj = 0", "output": "4" },
+    { "input": "seznam = [4,5,6,7,0,1,2], cilj = 3", "output": "-1" }
+  ]
+}

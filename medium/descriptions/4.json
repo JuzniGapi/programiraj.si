@@ -1,0 +1,12 @@
+{
+  "id": 4,
+  "description": "Napiši funkcijo, ki premakne vse ničle na konec seznama, ohrani pa vrstni red ostalih števil.",
+  "function_signature": "def premakni_nicle(seznam: list[int]) -> list[int]:",
+  "input_format": "Posredovan bo seznam celih števil `seznam`.",
+  "output_format": "Vrni nov seznam z ničlami na koncu.",
+  "constraints": ["1 <= len(seznam) <= 10^4"],
+  "examples": [
+    { "input": "seznam = [0, 1, 0, 3, 12]", "output": "[1, 3, 12, 0, 0]" },
+    { "input": "seznam = [1, 2, 3]", "output": "[1, 2, 3]" }
+  ]
+}

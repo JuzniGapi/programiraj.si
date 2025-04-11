@@ -1,0 +1,12 @@
+{
+  "id": 3,
+  "description": "Napiši funkcijo, ki vrne vse unikatne kombinacije števil iz seznama, katerih vsota je enaka cilju. Vsako število lahko uporabiš večkrat.",
+  "function_signature": "def kombinacije_vsote(seznam: list[int], cilj: int) -> list[list[int]]:",
+  "input_format": "Podan bo seznam pozitivnih celih števil in ciljna vsota.",
+  "output_format": "Vrni seznam seznamov kombinacij, katerih vsota je enaka `cilj`.",
+  "constraints": ["1 <= len(seznam) <= 20", "1 <= cilj <= 500"],
+  "examples": [
+    { "input": "seznam = [2,3,6,7], cilj = 7", "output": "[[2,2,3],[7]]" },
+    { "input": "seznam = [2,3,5], cilj = 8", "output": "[[2,2,2,2],[2,3,3],[3,5]]" }
+  ]
+}

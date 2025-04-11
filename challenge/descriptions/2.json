@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "description": "Preveri, ali niz `vzorci` sledi istemu vzorcu kot niz `besede`, kjer vsaka črka v `vzorci` preslika na eno besedo v `besede`, enolično.",
+  "function_signature": "def enak_vzorec(vzorci: str, besede: str) -> bool:",
+  "input_format": "Podan bo niz `vzorci` (npr. 'abba') in niz `besede` (npr. 'pes mačka mačka pes').",
+  "output_format": "Vrni True, če sledi istemu vzorcu, sicer False.",
+  "constraints": ["1 <= len(vzorci), len(besede) <= 1000"],
+  "examples": [
+    { "input": "vzorci = 'abba', besede = 'pes mačka mačka pes'", "output": "True" },
+    { "input": "vzorci = 'abba', besede = 'pes mačka mačka riba'", "output": "False" }
+  ]
+}

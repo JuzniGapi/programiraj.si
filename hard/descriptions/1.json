@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "description": "Napiši funkcijo, ki vrne dolžino najdaljšega podniza brez ponavljajočih se znakov.",
+  "function_signature": "def najdaljsi_unikaten_podniz(niz: str) -> int:",
+  "input_format": "Podan bo niz znakov `niz`.",
+  "output_format": "Vrni dolžino najdaljšega podniza brez ponavljajočih znakov.",
+  "constraints": ["1 <= len(niz) <= 10^5"],
+  "examples": [
+    { "input": "niz = 'abcabcbb'", "output": "3" },
+    { "input": "niz = 'bbbbb'", "output": "1" }
+  ]
+}

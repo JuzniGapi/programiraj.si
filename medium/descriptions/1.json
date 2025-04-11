@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "description": "Napiši funkcijo, ki vrne najpogostejši element v seznamu. Če je več takih, vrni kateregakoli.",
+  "function_signature": "def najpogostejsi_element(seznam: list[int]) -> int:",
+  "input_format": "Posredovan bo seznam celih števil `seznam`.",
+  "output_format": "Vrni element, ki se v seznamu pojavi največkrat.",
+  "constraints": ["1 <= len(seznam) <= 10^5", "-10^6 <= seznam[i] <= 10^6"],
+  "examples": [
+    { "input": "seznam = [1, 3, 1, 3, 2, 1]", "output": "1" },
+    { "input": "seznam = [5, 5, 4, 6, 6, 6]", "output": "6" }
+  ]
+}

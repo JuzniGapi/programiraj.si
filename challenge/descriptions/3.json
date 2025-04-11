@@ -1,0 +1,12 @@
+{
+  "id": 3,
+  "description": "Napiši funkcijo, ki preveri, ali je podana matrika simetrična glede na svojo sredinsko navpično os.",
+  "function_signature": "def zrcalna_matrika(matrika: list[list[int]]) -> bool:",
+  "input_format": "Podana bo kvadratna matrika celih števil.",
+  "output_format": "Vrni True, če je zrcalna, sicer False.",
+  "constraints": ["1 <= len(matrika) <= 100"],
+  "examples": [
+    { "input": "matrika = [[1,2,3],[4,5,4],[3,2,1]]", "output": "False" },
+    { "input": "matrika = [[1,2,1],[3,4,3],[1,2,1]]", "output": "True" }
+  ]
+}

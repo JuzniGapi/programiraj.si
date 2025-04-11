@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Najpogostejši element",
+    "difficulty": "medium",
+    "tags": ["seznam", "štetje", "slovar"]
+  },
+  {
+    "id": 2,
+    "title": "Združevanje intervalov",
+    "difficulty": "medium",
+    "tags": ["intervali", "razvrščanje", "seznam"]
+  },
+  {
+    "id": 3,
+    "title": "Unikatni znaki v nizu",
+    "difficulty": "medium",
+    "tags": ["nizi", "množice", "logika"]
+  },
+  {
+    "id": 4,
+    "title": "Premakni ničle na konec",
+    "difficulty": "medium",
+    "tags": ["seznam", "manipulacija", "dvojni kazalci"]
+  },
+  {
+    "id": 5,
+    "title": "Preveri anagram",
+    "difficulty": "medium",
+    "tags": ["nizi", "štetje", "slovar"]
+  }
+]

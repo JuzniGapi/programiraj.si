@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Najdi manjkajočo številko brez zanke",
+    "difficulty": "challenge",
+    "tags": ["matematika", "logika", "seznam"]
+  },
+  {
+    "id": 2,
+    "title": "Preveri enak vzorec besed",
+    "difficulty": "challenge",
+    "tags": ["nizi", "preslikava", "logika"]
+  },
+  {
+    "id": 3,
+    "title": "Zrcalna matrika",
+    "difficulty": "challenge",
+    "tags": ["matrika", "simetrija", "2D-seznami"]
+  },
+  {
+    "id": 4,
+    "title": "Ujemanje unikatnih znakov",
+    "difficulty": "challenge",
+    "tags": ["nizi", "množice", "logično razmišljanje"]
+  },
+  {
+    "id": 5,
+    "title": "Najkrajši podniz z vsemi znaki",
+    "difficulty": "challenge",
+    "tags": ["nizi", "dvojni kazalci", "optimizacija"]
+  }
+]

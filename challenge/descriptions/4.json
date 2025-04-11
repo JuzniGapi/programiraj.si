@@ -1,0 +1,12 @@
+{
+  "id": 4,
+  "description": "Napiši funkcijo, ki preveri, ali imata dva niza enako množico unikatnih znakov.",
+  "function_signature": "def enaki_znaki(niz1: str, niz2: str) -> bool:",
+  "input_format": "Podana bosta dva niza.",
+  "output_format": "Vrni True, če imata enake unikatne znake, sicer False.",
+  "constraints": ["1 <= len(niz1), len(niz2) <= 1000"],
+  "examples": [
+    { "input": "niz1 = 'abc', niz2 = 'bca'", "output": "True" },
+    { "input": "niz1 = 'abc', niz2 = 'abcd'", "output": "False" }
+  ]
+}

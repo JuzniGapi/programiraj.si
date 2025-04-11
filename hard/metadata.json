@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Najdaljši podniz brez ponavljanj",
+    "difficulty": "hard",
+    "tags": ["nizi", "dvojni kazalci", "množice"]
+  },
+  {
+    "id": 2,
+    "title": "Iskanje v rotiranem seznamu",
+    "difficulty": "hard",
+    "tags": ["binarno iskanje", "seznam", "algoritmi"]
+  },
+  {
+    "id": 3,
+    "title": "Kombinacije, ki dajo vsoto",
+    "difficulty": "hard",
+    "tags": ["rekurzija", "kombinatorika", "seznam"]
+  },
+  {
+    "id": 4,
+    "title": "Pasti dežja med stolpci",
+    "difficulty": "hard",
+    "tags": ["dvojni kazalci", "dinamično programiranje"]
+  },
+  {
+    "id": 5,
+    "title": "Podseznam z največjo vsoto",
+    "difficulty": "hard",
+    "tags": ["dinamično programiranje", "seznam"]
+  }
+]
