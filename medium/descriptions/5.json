@@ -1,13 +1,25 @@
 {
   "id": 5,
-  "description": "Napiši funkcijo, ki preveri, ali sta dva niza anagrama. Ignoriraj velike/male črke.",
+  "description": "Napiši funkcijo, ki preveri, ali sta dva niza sestavljena iz enakih črk, vendar v drugačnem vrstnem redu. Ignoriraj velike in male črke.",
   "function_signature": "def je_anagram(niz1: str, niz2: str) -> bool:",
   "input_format": "Podana bosta dva niza `niz1` in `niz2`.",
   "output_format": "Vrni `True`, če sta niza anagrama, sicer `False`.",
   "constraints": ["1 <= len(niz1), len(niz2) <= 10^5"],
   "examples": [
-    { "input": "niz1 = 'listen', niz2 = 'silent'", "output": "True" },
-    { "input": "niz1 = 'Hello', niz2 = 'Olelh'", "output": "True" },
-    { "input": "niz1 = 'test', niz2 = 'tast'", "output": "False" }
+    { 
+      "input": "niz1 = 'listen', niz2 = 'silent'", 
+      "output": "True",
+      "explanation": "Oba niza vsebujeta iste črke v različnih vrstnih redih, zato sta anagrama."
+    },
+    { 
+      "input": "niz1 = 'Hello', niz2 = 'Olelh'", 
+      "output": "True",
+      "explanation": "Če ignoriramo velike/male črke, oba niza vsebujeta enake črke ('h', 'e', 'l', 'l', 'o')."
+    },
+    { 
+      "input": "niz1 = 'test', niz2 = 'tast'", 
+      "output": "False",
+      "explanation": "Niza se razlikujeta po eni črki ('e' namesto 'a'), zato nista anagrama."
+    }
   ]
 }
