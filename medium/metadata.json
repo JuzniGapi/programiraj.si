@@ -3,30 +3,35 @@
     "id": 1,
     "title": "Najpogostejši element",
     "difficulty": "medium",
-    "tags": ["seznam", "štetje", "slovar"]
+    "tags": ["seznam", "štetje", "slovar"],
+    "description": "Naloga, kjer moraš poiskati element, ki se v seznamu pojavi največkrat."
   },
   {
     "id": 2,
     "title": "Združevanje intervalov",
     "difficulty": "medium",
-    "tags": ["intervali", "razvrščanje", "seznam"]
+    "tags": ["intervali", "razvrščanje", "seznam"],
+    "description": "Naloga, kjer moraš združiti intervale, ki se prekrivajo, in odstraniti prekrivanja."
   },
   {
     "id": 3,
     "title": "Unikatni znaki v nizu",
     "difficulty": "medium",
-    "tags": ["nizi", "množice", "logika"]
+    "tags": ["nizi", "množice", "logika"],
+    "description": "Naloga, kjer moraš preveriti, ali vsebuje niz samo unikatne znake."
   },
   {
     "id": 4,
     "title": "Premakni ničle na konec",
     "difficulty": "medium",
-    "tags": ["seznam", "manipulacija", "dvojni kazalci"]
+    "tags": ["seznam", "manipulacija", "dvojni kazalci"],
+    "description": "Naloga, kjer moraš premakniti vse ničle v seznamu na konec, obdržati pa vrstni red drugih števil."
   },
   {
     "id": 5,
     "title": "Preveri anagram",
     "difficulty": "medium",
-    "tags": ["nizi", "štetje", "slovar"]
+    "tags": ["nizi", "štetje", "slovar"],
+    "description": "Naloga, kjer moraš preveriti, ali sta dva niza sestavljena iz enakih črk, ne glede na vrstni red."
   }
 ]
