@@ -6,7 +6,15 @@
   "output_format": "Vrni `True`, če so vsi znaki v nizu unikatni, sicer `False`.",
   "constraints": ["1 <= len(niz) <= 10^5"],
   "examples": [
-    { "input": "niz = 'abcdefg'", "output": "True" },
-    { "input": "niz = 'hello'", "output": "False" }
+    { 
+      "input": "niz = 'abcdefg'", 
+      "output": "True",
+      "explanation": "Vsi znaki v nizu so različni, zato je rezultat True."
+    },
+    { 
+      "input": "niz = 'hello'", 
+      "output": "False",
+      "explanation": "Črka 'l' se ponovi, zato niz ne vsebuje samo unikatnih znakov."
+    }
   ]
 }
