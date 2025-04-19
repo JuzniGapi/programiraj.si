@@ -10,14 +10,14 @@
   ],
   "examples": [
     {
-      "input": "intervali = [[1, 3], [2, 6], [8, 10], [15, 18]]",
-      "output": "[[1, 6], [8, 10], [15, 18]]",
-      "explanation": "Intervala [1, 3] in [2, 6] se prekrivata, zato ju združimo v [1, 6]. Ostala dva se ne prekrivata z nobenim drugim."
-    },
-    {
       "input": "intervali = [[1, 4], [4, 5]]",
       "output": "[[1, 5]]",
       "explanation": "Intervala [1, 4] in [4, 5] se stikata, zato ju združimo v en interval [1, 5]."
-    }
+    },
+    {
+      "input": "intervali = [[1, 3], [2, 6], [8, 10], [15, 18]]",
+      "output": "[[1, 6], [8, 10], [15, 18]]",
+      "explanation": "Intervala [1, 3] in [2, 6] se prekrivata, zato ju združimo v [1, 6]. Ostala dva se ne prekrivata z nobenim drugim."
+    }    
   ]
 }
